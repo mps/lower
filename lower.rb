@@ -4,7 +4,7 @@
 # Matthew Strickland
 #
 #
-# The first argument is the directory otherise it is the directory the script is in.
+# The first argument is the directory otherwise it defaults to the directory the script is located in.
 directory = ARGV[0]
 
 if directory.nil?
